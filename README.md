@@ -30,26 +30,43 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+forEach dose't make a new array, but .map does
+
 2. What is the difference between a function and a method?
+
+With a method there is something that receives whatever it is doing,  a function doesn't
 
 3. What is closure?
 
+ Closer controls what is and what isn't in scope foe any particular function. Along with this it controls what veriables are chared between sibling functions.
+
 4. Describe the four rules of the 'this' keyword.
 
+    1.  Window binding - If there isn't any other rules/principles effecting "this" then it defaults to the global scope. Except when using "strict" it will return undefined.
+
+    2.Implicit binding is the most commenly found, it only works with methods, and you loot to the left of the dot to find what "this" refers to.
+
+    3. Explicit binding uses "call", "apply", and "bind" to explicitly assign what "this" refers to.
+
+    4.New binding uses "new" to make a new object and "this" refers to it.  
+
 5. Why do we need super() in an extended class?
+
+    we need it because it replaces the .call in the parent
+
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [Y] Create a forked copy of this project.
+- [Y] Add TL as collaborator on Github.
+- [Y] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [Y] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [Y] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [Y] You are now ready to build this project with your preferred IDE
+- [Y] Implement the project on your Branch, committing changes regularly.
+- [Y] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
@@ -66,19 +83,19 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [Y] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [Y] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [Y] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [Y] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
